@@ -1,0 +1,257 @@
+/*CSS HEX
+--indigo-dye: #274060ff;
+--lapis-lazuli: #335c81ff;
+--argentinian-blue: #65afffff;
+--space-cadet: #1b2845ff;
+--united-nations-blue: #5899e2ff;
+
+ CSS HSL
+--indigo-dye: hsla(214, 42%, 26%, 1);
+--lapis-lazuli: hsla(208, 43%, 35%, 1);
+--argentinian-blue: hsla(211, 100%, 70%, 1);
+--space-cadet: hsla(221, 44%, 19%, 1);
+--united-nations-blue: hsla(212, 70%, 62%, 1);
+*/
+.Navbar{
+  color: #1B2845;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 16px;
+
+}
+.nav{
+  color: #1B2845;
+  align-items: center;
+  text-decoration: none;
+  padding: 20px
+}
+.Head{
+  color: #1B2845;
+  text-align: center;
+}
+div.Images:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+#intro{
+  color: #1B2845;
+  text-align: center;
+}
+#featured{
+  color: #1B2845;
+  text-align: center;
+
+}
+body{
+background-image: url("Images/bf8.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Poppins', sans-serif;
+}
+.nav:hover{
+  transition: all, 0.1s ease-in-out;
+  font-weight: 600;
+  transform: scale(1.1);
+
+}
+.nav:visited{
+ transition: all, 0.1s ease-in-out;
+ font-weight: 600;
+ transform: scale(1.1);
+ color: whitesmoke;
+ background-color: #274060ff;
+}
+/*About Us*/
+.CC{
+  text-align: center;
+  font-size: 20px;
+
+}
+#introduction{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+#mission{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+#team{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+#guides{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.team-member {
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000;
+}
+
+.guide-member {
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+}
+
+/*Destinations*/
+#destination-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-family: 'Poppins', sans-serif;
+
+}
+.Head2a{
+  text-align: center;
+  color: #1B2845;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+.A{
+  text-align: center;
+  color: #1B2845;
+  font-family: 'Poppins', sans-serif;
+}
+/*Paris*/
+#overview{
+  text-align: center;
+  color: #1B2845;
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+div.item:hover{
+  background-color:rgb(248, 248, 248);
+  color: black;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+
+}
+.para{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.Tower{
+  border: 1px;
+  border-color: #65afffff;
+  border-style: solid;
+  font-family: 'Poppins', sans-serif;
+}
+.Tower:hover{
+  background-color: #65afffff;
+  color: black;
+  transform: scale(1.1);
+}
+.tips{
+  text-align: center;
+  color: #1B2845;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+#tips{
+  text-align: center;
+  color: #1B2845;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.h2{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+.nav-button{
+  text-align: right;
+}
+.button-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      width: 100%;
+      box-sizing: border-box;
+}
+.nav-button {
+      padding: 10px 20px;
+      text-decoration: none;
+      color: black;
+      border-radius: 5px;
+      font-size: 16px;
+}
+ .nav-button:hover {
+  background-color: #274060ff;
+  color: white;
+      transform: scale(1.1);
+}
+.Info{
+  text-align: center;
+  color: #1B2845;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+.Bookus-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      width: 100%;
+      box-sizing: border-box;
+
+}
+.Bookusbutton {
+      padding: 10px 30px;
+      width: 200px;
+      text-decoration: none;
+      color: white;
+      border-radius: 5px;
+      font-size: 16px;
+      text-align: center;
+      background-color: #274060ff;
+}
+.Bookusbutton:hover {
+  background-color:  #65afffff;
+  color: black;
+      transform: scale(1.1);
+}
+.Login {
+   padding: 10px 30px;
+      width: 200px;
+      text-decoration: none;
+      color: white;
+      border-radius: 5px;
+      font-size: 16px;
+      text-align: center;
+      background-color: #274060ff;
+}
+.Login:hover {
+  background-color:  #65afffff;
+  color: black;
+      transform: scale(1.1);
+    }
