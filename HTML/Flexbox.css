@@ -1,0 +1,17 @@
+/*Flexbox8*/
+.container{
+  height: 400px;
+  display: flex;/*flex, inline-flex*/
+  background-color: lightgray;
+  flex-direction: row-reverse;/*row, row-reverse, column, column-reverse*/
+  flex-wrap:wrap-reverse ;/*wrap-reverse, nowrap, wrap*/
+  justify-content: space-evenly;/*flex-start, flex-end, center, space-between, space-around,space-evenly*/
+  align-items: center;/*flex-start, flex-end, center, baseline, stretch*/
+}
+.item {
+  background-color: black;
+  color: white;
+  margin: 10px;
+  width: 90px;
+  padding: 20px;
+}

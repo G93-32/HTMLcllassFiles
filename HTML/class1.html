@@ -1,0 +1,194 @@
+<!DOCTYPE html><!--HTML 5 DOCUMENT-->
+<html lang="en"><!-- Root element -->
+<head>
+  <!--Information about the page which is not visible on the webpage-->
+
+<title>First time</title>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+</style>
+</head>
+<body>
+  <!--Content visible on the webpage-->
+  <!--headingS h1,h2,h3,h4,h5,h6-->
+  <h1 style="color: red ; text-align: center;">Welcome to DBIT sem 1</h1>
+  <h2>Welcome to DBIT sem 2</h2>
+  <h3>Welcome to DBIT sem 3</h3>
+  <h4>Welcome to DBIT sem 4</h4>
+  <h5>Welcome to DBIT sem 5</h5>
+  <h6>Welcome to DBIT sem 6</h6>
+  <!--paragraphs p-->
+  <P>This is our tuesday class</P>
+  <!--Span-->
+  <span>Gurjot Singh Sembi</span> <!--a href="#">Click here</a-->
+  <!--Lists ul,li-->
+  <!--Unordered List-->
+  <ul class="Class1">Vegetables
+    <li style="Color: red;">Tomato</li>
+    <li style="color: brown;">Potato</li>
+    <li>Onion</li>
+    <li>Brinjal</li>
+    <li>Carrot</li>
+  </ul>
+        <!--Ordered List-->
+       <ol>Pencil
+       <li>Red</li>
+       <li>Blue</li>
+       <li>Green</li>
+       <li>Yellow</li>
+       <li>Black</li>
+       </ol>
+       <!--Images, img- is self closing-->
+       <!--img attributes: src-->
+       <!--Alternate text, alt, width, height-->
+       <img src="C:\Users\user\Documents\Web Application\HTML\Post today.jpg" alt="Fixture" width="100px"><!--Absolute path-->
+        <img src="Images\Gurjot_biodata.jpg" alt="Passport" height="200px"><!--Relative path-->
+        <!--hyperlinks/anchor tag, a-->
+        <!--href attribute-->
+        <!--target attribute-->
+        <!--_blank, _self, _parent, _top-->
+        <a href="https://www.britannica.com/animal/lion"target="_blank" title="Goes to a lion picture"> Lion </a>
+        <hr>
+        <a href="https://www.w3schools.com/html/html_links.asp" target="_self" title="Goes to w3 schools">W3Schools</a>
+        <hr>
+        <a href="https://elearning.strathmore.edu/login/index.php" target="_parent" title="Goes to starthmore">Strathmore</a>
+        <hr>
+        <a href="https://osintframework.com/" target="_top" title="Goes to osintframework">OSINT</a>
+
+        <!--Table, table, tr(Table row), th(Table header), td(table data will influence number of columns)-->
+        <table>
+          <tr>
+            <th colspan="4"> DBIT MAY</th><!--colspan attribute-->
+            <!--rowspan attribute-->
+          </tr>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+            <th>Course</th>
+          </tr>
+          <tr>
+            <td>Gurjot</td>
+            <td>Sembi</td>
+            <td>20</td>
+            <td>DBIT</td>
+          </tr>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>25</td>
+            <td>BBIT</td>
+          </tr>
+          <tr>
+            <td>Jane</td>
+            <td>Smith</td>
+            <td>30</td>
+            <td>DBA</td>
+          </tr>
+          <tr>
+            <td>Michael</td>
+            <td>Johnson</td>
+            <td>35</td>
+            <td>DBA</td>
+          </tr>
+          <tr>
+            <td>Emily</td>
+            <td>Williams</td>
+            <td>28</td>
+            <td>DBM</td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+            <th colspan="3">Strathmore University</th>
+            <th rowspan="4">2025</th>
+            </tr>
+          <tr>
+            <th>Student</th>
+            <th>Date of Birth</th>
+            <th>Course</th>
+
+          </tr>
+          <tr>
+            <td>Mike</td>
+            <td>12/02/2005</td>
+            <td>BBIT</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>11/06/2004</td>
+            <td>ICS</td>
+        </table><br>
+        <!--line break: br - self closing/empty tag-->
+        <!--Horizontal rule: hr - self closing/empty tag-->
+        <!--forms and form controls-->
+        <!--form elements-->
+        <!--form, input,label,button,select, textarea--->
+        <!-- input types-->
+        <!--text, password, checkbox, radio, file, hidden, image, button, submit, reset-->
+        <!--input attributes-->
+        <!--name, value, placeholder, required, disabled, readonly, size, maxlength-->
+        <h2>Registration form</h2>
+        <for>
+           <label >First name:</label><br>
+           <input type="text"  name="fname" placeholder="Enter First name" required><br>
+           <label >Last name:</label><br>
+           <input type="text" name="lname" placeholder="Enter Last name" required><br>
+           <label>Email:</label><br>
+           <input type="email" name="email" placeholder="Enter email"required ><br>
+           <label>Age</label><br>
+           <input type="number"  name="age" placeholder="Enter age" required><br>
+           <label for="number">Student Number</label><br>
+           <input type="number" name="number" placeholder="Enter student number" required ><br>
+           <label>Birth date</label><br>
+           <input type="date" name="Birthdate"><br>
+           <label>Gender</label>
+           <input type="radio" name="Gender" value="Male">
+           <label>Male</label>
+           <input type="radio" name="Gender" value="Female">
+           <label>Female</label><br>
+           <label>Terms and conditions</label>
+           <input type="checkbox" name="terms" value="Accept" required>
+           <label>Accept</label>
+           <input type="checkbox" name="terms" value="Decline">
+           <label>Decline</label><br>
+           <label>Upload file</label>
+           <input type="file" name="Upload file"><br>
+           <input type="reset" value="reset"><br>
+           <input type="submit" value="Submit"><br>
+           <input type="button" value="Hellllllllllo"><br>
+           <br>
+           <!--text area, attributes- rows,cols-->
+           <label>Description of yourself(50 words)</label>
+           <textarea name="Description fo yourself" rows="8" cols="8"></textarea><br>
+           <!--select, option-->
+           <label name="Cars">Choose a vehicle</label><br>
+           <Select name="Cars" id="Cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+            <option value="toyota">Toyota</option>
+            <option value="honda">Honda</option>
+           </Select><br>
+           <!--button-->
+            <!--button type="button"-->
+            <!--button type="submit"-->
+            <!--button type="reset"-->
+           <button type="submit">Submit</button>
+        </form>
+
+
+
+</body>
+
+
+</html>

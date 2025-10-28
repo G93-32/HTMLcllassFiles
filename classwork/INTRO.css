@@ -1,0 +1,159 @@
+h1{
+  color: #4A90E2;
+  font-size: 2.5em;
+  text-align: RIGHT;
+  margin-top: 20px;
+}
+p{
+  /*element selector eg img ,p, h1*/
+    /*text properties*/
+  color: darkblue;
+  line-height: 1.5;
+  text-indent: 7px;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+   /*font properties*/
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* id selector: #id name*/
+#par1{
+  color: rgb(12, 255, 89);/*text color*/
+  /*color values: names, rgb() values, #hexcode, hsl()*/
+}
+/* class selector: .class name */
+.Upper{
+  text-align: left;  /*Alignment of text*/
+  /*text-transform: uppercase; /*Text transformation*/
+  /*text-decoration: underline; /*Text decoration*/
+}
+/*Grouped Selector*/
+h1, p, h2{
+  font-style:italic;
+}
+/*Universal Selector*/
+*{
+  font-family: Arial, sans-serif;
+}
+/*Attribute Selector*/
+[type=button]{
+  border: #4A90E2 solid 2px;
+}
+/*descendant selector*/
+nav a{
+  color: #333;
+  font-family: 'Courier New', Courier, monospace;
+}
+body{
+  background-color: lightcyan;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0GoyAbQ6stWjAQ3kglqtWl3OTFlaazlOYaQ&s');
+  background-repeat: no-repeat;
+  background-size: 1000px 5000px;
+  background-size: auto;
+  background-attachment: scroll;
+  opacity: 0.9; /*Opacity of the background*/
+  /*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');*/
+}
+/*Styling hyperlinks*/
+/*link state*/
+nav a:link{
+  background-color: black;
+  color: #FF5733;
+  text-decoration: none;
+  font-size: 20px;
+}
+/*visited state*/
+nav a:visited{
+  color: cyan;
+  text-decoration: none;
+}
+/*hover state*/
+nav a:hover{
+  color: purple;
+  text-decoration: underline;
+  font-weight: bold;
+  background-color: beige;
+}
+/*active state*/
+nav a:active{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  background-color: yellow;
+}
+/*CSS box model*/
+nav a{
+ /* padding: 10px 20px; /*padding: top right bottom left
+  margin: 5px; margin: top right bottom left
+  border-width: 1px; border: width style color
+  border-style: dotted;
+  border-color: pink;
+  box-shadow: 2px 2px 5px rgba(128, 40, 40, 0.3); box-shadow: horizontal vertical blur color*/
+  border: 1px dotted red;
+  padding: 10px 20px;
+  margin: 5px; margin: top right bottom left
+}
+.loginform{
+
+  border-radius: 10px;
+  background-color: rgba(200, 40, 200 , 0.10);/*a means opacity*/
+  padding: 20px;
+  text-align: center;
+}
+input, label{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+input{
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+
+}
+[type=submit]{
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+}
+/*Table styling*/
+/*border collapse*/
+table, th, td {
+  border: 1px solid black;
+  width: 900px;
+  border-collapse: collapse;
+  margin: auto;
+}
+tr:hover{
+  background-color: yellowgreen;
+  color: darkorchid;
+}
+/*List properties*/
+ol{
+
+  list-style-type: lower-roman; /*Types: disc, circle, square, decimal, lower-alpha, upper-alpha*/
+  list-style-position: inside; /*Position: inside, outside*/
+  margin-left: 20px;
+  padding-left: 20px;
+  list-style-image: url('https://example.com/image.png');
+}
+.Upper{
+ /* width: 50rem; /*Width in rem, em, px, %, etc.
+  height: 20rem; /*Height in rem, em, px, %, etc.*/
+/*em*/
+font-size: 2 .5em;
+font-size: 2rem;
+
+}
+body{
+  font-size: 16px;
+}
+html {
+  font-size: 20px; /*Base font size for rem units*/
+}

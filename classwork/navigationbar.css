@@ -1,0 +1,28 @@
+.heading{
+  text-align: center;
+}
+.navbar{
+  background-color: darkred;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.nav{
+  color: white;
+  align-items: center;
+  text-decoration: none;
+  padding: 30px
+}
+nav a:hover{
+  background-color: red;
+  padding: 30px;
+  text-decoration: none;
+
+}
+nav a:active{
+  background-color: yellow;
+  padding: 30px;
+  text-decoration: none;
+}

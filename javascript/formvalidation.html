@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up form</title>
+  <style>
+    .Sign-up-form { background: darkmagenta;
+    margin: 20px 400px;}
+       h1,label { text-align: center;color: white;}
+       label, input { display: block; margin: 10px auto; width: 95%;}
+       input {
+        padding: 10px 22px;
+        border: none;
+        border-radius: 8px;
+       }
+       [type=submit]{
+        background-color: darkblue;
+        color: white;
+       }
+       *{box-sizing: border-box;}
+
+
+  </style>
+</head>
+<body>
+  <div class="Sign-up-form">
+    <h1>Sign Up Page</h1>
+    <form>
+    <label>Username</label>
+    <input type="text" id="fullname" placeholder="Enter your Username" required>
+    <div id="usererror"></div>
+    <label>Password</label>
+    <input type="password" id="password" placeholder="Enter your Password" required>
+    <div id="passerror"></div>
+    <input type="submit" name="Signup" id="Signup" value="Signup">
+    </form>
+  </div>
+  <script src="formvalidation.js"></script>
+</body>
+</html>
